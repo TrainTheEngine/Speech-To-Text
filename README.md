@@ -5,7 +5,12 @@ This program is intended to transcribe English audio files into two text files, 
 
 ## Installation
 
-Download the relevant files from the GitHub page (https://github.com/TrainTheEngine/Speech-To-Text) and then open a shell such as Windows Command Prompt/Powershell and install the following directories:
+Download the relevant files from the GitHub page (https://github.com/TrainTheEngine/Speech-To-Text) and then open a shell such as Windows Command Prompt/Powershell and install the following directories (you will need python installed):
+
+If you do not have PIP:
+```bash
+py -m ensurepip --upgrade
+```
 
 Scoop:
 ```bash
