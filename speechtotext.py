@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import whisper
-app = Flask(__name__, template_folder="C:/Users/Tom/Documents/Cloudera/Templates")
+app = Flask(__name__, template_folder="./Templates")
 @app.route("/", methods=["GET", "POST"])
 def home():
     if request.method == "GET":
