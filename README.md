@@ -1,11 +1,11 @@
 # TrainTheEngine's Speech To Text
 
-This program is intended to transcribe English audio files into two text files, one containing the basic transcript and the other a timestamped sentence log. It is written in Python and HTML, and utilises the Openai/Whisper directory for transcription and the Flask directory for web display. It is written for Windows.
+This program is intended to transcribe English audio files into two text files, one containing the basic transcript and the other a timestamped sentence log. It is written in Python and HTML, and utilises the Openai/Whisper directory (https://github.com/openai/whisper) for transcription and the Flask directory (https://github.com/pallets/flask) for web display. It is written for Windows.
 
 
 ## Installation
 
-Download the relevant files from the GitHub page and then open a shell such as Windows Command Prompt/Powershell and install the following directories:
+Download the relevant files from the GitHub page (https://github.com/TrainTheEngine/Speech-To-Text) and then open a shell such as Windows Command Prompt/Powershell and install the following directories:
 
 Scoop:
 ```bash
